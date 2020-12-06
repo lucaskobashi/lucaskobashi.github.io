@@ -1,2 +1,3 @@
-# lucaskobashi.github.io
-My website
+# Personal Website
+
+lucaskobashi.github.io
