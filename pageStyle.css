@@ -10,9 +10,16 @@
 html {
     align-items: center;
     display: flex;
-    height: 100%;
     justify-content: center;
     margin: 0;
+}
+
+html.height {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
 }
 
 body {
@@ -38,6 +45,11 @@ a:hover {
 h1 {
     font-weight: bold;
     color: #F6AE2D;
+}
+
+h2 {
+    font-weight: bold;
+    color: #DB5461;
 }
 
 h6 {
