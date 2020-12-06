@@ -7,11 +7,6 @@
         url("/font/JetBrainsMono-Medium.ttf") format("truetype");
 }
 
-.material-icons-outlined {
-    font-size: 16px;
-    vertical-align: -3px;
-}
-
 html {
     margin: 20px 10px 20px 10px;
     align-items: center;
@@ -52,8 +47,4 @@ h2 {
 h6 {
     font-style: italic;
     font-size: 12px;
-}
-
-img {
-    vertical-align: middle;
 }
