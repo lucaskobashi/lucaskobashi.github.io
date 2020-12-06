@@ -30,6 +30,11 @@ a {
     text-decoration: none;
 }
 
+a.current {
+    color: #4B8F8C;
+    text-decoration: none;
+}
+
 a:hover {
     color: #F6AE2D;
 }
