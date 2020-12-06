@@ -15,6 +15,15 @@ html {
 
 body {
     font-family: "JetBrains Mono", monospace;
-    color: white;
+    color: #F4FAFF;
     background-color: #213145;
 }
+
+a {
+    color: #F4FAFF;
+}
+
+a:hover {
+    color: #F6AE2D;
+}
+
