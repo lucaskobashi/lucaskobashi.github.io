@@ -22,8 +22,13 @@ body {
     background-color: #213145;
 }
 
+p.right {
+    text-align: right;
+}
+
 a {
     color: #F4FAFF;
+    text-decoration: none;
 }
 
 a:hover {
@@ -40,3 +45,6 @@ h6 {
     font-size: 12px;
 }
 
+img {
+    vertical-align: middle;
+}
