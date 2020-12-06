@@ -1,8 +1,9 @@
 @font-face {
     font-family: "JetBrains Mono";
     src:
-        url("/font/JetBrainsMono-Regular.ttf") format("ttf"),
-        url("/font/JetBrainsMono-Bold.ttf") format("ttf");
+        url("/font/JetBrainsMono-Italic.ttf") format("truetype"),
+        url("/font/JetBrainsMono-Regular.ttf") format("truetype"),
+        url("/font/JetBrainsMono-Bold.ttf") format("truetype");
 }
 
 html {
@@ -25,5 +26,10 @@ a {
 
 a:hover {
     color: #F6AE2D;
+}
+
+h6 {
+    font-style: italic;
+    font-size: 12px;
 }
 
