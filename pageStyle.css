@@ -1,9 +1,10 @@
 @font-face {
     font-family: "JetBrains Mono";
     src:
-        url("/font/JetBrainsMono-Italic.ttf") format("truetype"),
         url("/font/JetBrainsMono-Regular.ttf") format("truetype"),
+        url("/font/JetBrainsMono-Italic.ttf") format("truetype"),
         url("/font/JetBrainsMono-Bold.ttf") format("truetype");
+        url("/font/JetBrainsMono-Medium.ttf") format("truetype");
 }
 
 html {
@@ -16,6 +17,7 @@ html {
 
 body {
     font-family: "JetBrains Mono", monospace;
+    font-style: normal;
     color: #F4FAFF;
     background-color: #213145;
 }
@@ -25,6 +27,11 @@ a {
 }
 
 a:hover {
+    color: #F6AE2D;
+}
+
+h1 {
+    font-weight: bold;
     color: #F6AE2D;
 }
 
