@@ -164,6 +164,14 @@ h6 {
     font-size: 12px;
 }
 
+p.spotify {
+    text-align: center;
+}
+
+iframe {
+    border: 0;
+}
+
 @media screen and (max-width: 850px) {
 
     i.material-icons-outlined {
