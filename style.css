@@ -7,28 +7,145 @@
         url("/font/JetBrainsMono-Medium.ttf") format("truetype");
 }
 
-html {
-    margin: 20px 10px 20px 10px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
 body {
+    margin: 20px 10px;
+    align-items: center;
+    padding: 100px 15%;
+
+    /*display: flex;*/
+    justify-content: center;
     font-family: "JetBrains Mono", monospace;
     font-style: normal;
     color: #F4FAFF;
     background-color: #213145;
 }
 
-p.right {
-    text-align: right;
-}
+/* menu stuff */
+
+    header {
+
+        width: 100%;
+        background-color: #048ba8;
+        padding: 10px 20px;
+
+        position: fixed;
+        top: 0;
+        z-index: 999;
+
+        left: 0;
+    }
+
+    .navbar {
+        max-width: 1200px;
+        /*border: 5px solid #F6AE2D; !* not so sure... *!*/
+        margin: 0 auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .hamburger {
+        width: 30px;
+        height: 30px;
+
+        background-color: transparent;
+        border-radius: 5px;
+        border: 0;
+
+        position: relative;
+        cursor: pointer;
+
+        display: none;
+    }
+
+    .hamburger:after{
+        content:"";
+        position: absolute;
+        top: 35%;
+        left: 15%;
+
+        width: 70%;
+        height: 5%;
+        border-radius: 5px;
+
+        background-color: #fff;
+    }
+
+    .hamburger:before {
+        content: "";
+
+        position: absolute;
+        top: 55%;
+        left: 15%;
+
+        width: 70%;
+        height: 5%;
+        border-radius: 5px;
+
+        background-color: #fff;
+    }
+
+    ul.menu {
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    li.menu {
+        margin-left: 10px;
+    }
+
+    a.menu{
+        display: block;
+        padding: 10px 15px;
+        color: #F4FAFF;
+        text-decoration: none;
+        transition: color 0.5s ease;
+    }
+
+    a.menu:hover{
+        color: #F6AE2D;
+    }
+
+    @media screen and (max-width: 900px){
+        .hamburger{
+            display: block;
+            z-index: 999;
+        }
+
+        ul.menu{
+            position: fixed;
+            top: 0;
+            right:-100%;
+
+            height: 100vh;
+            margin: 0;
+            background-color: #222;
+
+            padding: 100px 20px;
+
+            width: 100%;
+            max-width: 200px;
+
+            flex-direction: column;
+
+            transition: .5s ease;
+        }
+
+        ul.menu.active{
+            right: 0;
+        }
+
+    }
+
+/* end menu */
 
 a {
     color: #F4FAFF;
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color 0.5s ease;
 }
 
 a:hover {
