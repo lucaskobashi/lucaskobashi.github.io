@@ -145,8 +145,18 @@ h6 {
 
 @media screen and (max-width: 850px) {
 
+    i.material-icons-outlined {
+        font-size: 16px;
+    }
+
     h1 {
         font-size: 19px;
+    }
+
+    h2 {
+        font-size: 16px;
+        font-weight: bold;
+        color: #DB5461;
     }
 
     body {
