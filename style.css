@@ -128,6 +128,11 @@ a.current:hover {
     color: #F6AE2D;
 }
 
+a.title {
+    font-weight: bold;
+    color: #F6AE2D;
+}
+
 h1 {
     font-weight: bold;
     color: #F6AE2D;
@@ -149,7 +154,7 @@ h6 {
         font-size: 16px;
     }
 
-    h1 {
+    a.title {
         font-size: 19px;
     }
 
