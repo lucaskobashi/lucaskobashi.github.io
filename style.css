@@ -106,6 +106,12 @@ body {
         color: #F6AE2D;
     }
 
+    a.title {
+        font-size: 2em;
+        font-weight: bold;
+        color: #F6AE2D;
+    }
+
 /* end menu */
 
 a {
@@ -125,11 +131,6 @@ a.current {
 }
 
 a.current:hover {
-    color: #F6AE2D;
-}
-
-a.title {
-    font-weight: bold;
     color: #F6AE2D;
 }
 
@@ -165,11 +166,11 @@ h6 {
     }
 
     body {
-        margin: 100px 20px;
+        margin: 80px 20px;
     }
 
     header {
-        padding: 0 0;
+        padding: 15px 15px;
     }
 
     .hamburger{
