@@ -23,7 +23,7 @@ body {
 
         width: 100%;
         background-color: #048ba8;
-        padding: 10px 20px;
+        padding: 0 0;
 
         position: fixed;
         top: 0;
@@ -172,7 +172,7 @@ iframe {
     border: 0;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1060px) {
 
     i.material-icons-outlined {
         font-size: 16px;
