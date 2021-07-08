@@ -9,7 +9,7 @@ export default class navItems extends Component{
          * tag[2]: icon name
          */
         tags:
-            [["home ", "../../public/index.html", "home"],
+            [["home ", "https://lucaskobashi.github.io", "home"],
             ["contact ", "https://google.com", "contact_page"],
             ["courses ", "https://google.com", "school"],
             ["files ", "https://google.com", "folder"],
