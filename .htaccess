@@ -1,0 +1,18 @@
+# mod_rewrite
+
+RewriteEngine on
+
+# does not apply to existing directories
+# if folder exists with same name, server won't change anything
+# & rule won't run
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# if file does not exist, code won't run
+# check for file in directory with .html extension
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+# Show page with .html extension
+
+RewriteRule ^(.*)$ $1.html [NC,L]
